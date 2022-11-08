@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-ARG flag
-ENV debug $flag
 
 COPY helloworld.sh .
 
